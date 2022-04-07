@@ -1,0 +1,43 @@
+<!-- the usual meta tags -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>404 Page not found</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#f22613">
+<meta name="msapplication-TileColor" content="#f22613">
+<meta name="application-name" content="unnus">
+<meta name="apple-mobile-web-app-title" content="unnus">
+<meta content="IE-edge, chrome=1" http-equiv="X-UA-Compatable">
+<meta name="robots" content="noindex">
+<link rel='shortcut icon' type='image/x-icon' href="{{.Site.BaseURL}}/favico.png" /> 
+<link rel="apple-touch-icon-precomposed" href="/img/apple-touch-icon-iphone-60x60.png">
+<link rel="apple-touch-icon-precomposed" sizes="60x60" href="/img/apple-touch-icon-ipad-76x76.png">
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="/img/apple-touch-icon-iphone-retina-120x120.png">
+{{ $sass := resources.Get "sass/main.scss" }}
+{{ $style := $sass | resources.ToCSS | resources.Minify | resources.Fingerprint}}
+
+<link rel="stylesheet" href="{{ $style.Permalink }}">
+
+</head>
+<body>
+	<header class="header-contact email-confirmation-header">
+			<div class="container">
+							{{ partial "navbar.html" }}
+			</div>
+			<div class="container" style="text-align: center;">
+				<div  class="header-content-contact">
+					<h2 class="reveal-text">Bask in the whitespace. here's a quote:</h2>
+					 <p>
+					 	<em>"The only way of catching a train I have ever discovered is to miss the train before."</em>
+					</p>
+					<p>― G.K. Chesterton</p>
+				</div>
+			</div>
+	</header>	
+</body>
+</html>
+{{ partial "sidebar.html" }}
+{{ partial "goup.html" }}
+{{ partial "footer.html" }}

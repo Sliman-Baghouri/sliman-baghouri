@@ -1,0 +1,109 @@
+---
+label: Podcast Episode
+hide_body: false
+fields:
+- name: page
+  type: text
+  config:
+    required: false
+  label: Episode Template
+  default: podcast/single.html
+- name: title
+  type: text
+  config:
+    required: false
+  label: title
+- name: which
+  type: text
+  config:
+    required: false
+  label: which
+  hidden: false
+- name: season
+  type: text
+  config:
+    required: false
+  label: season
+  description: season number (season-one/season-two)
+- name: guest
+  type: text
+  config:
+    required: false
+  label: guest name
+  description: Guest Name (make sure to include dr. ex Dr. Capablanca)
+- name: guestPicture
+  type: file
+  config:
+    maxSize: 64
+  label: " Picture of the guest (preferably large size)"
+- name: slug
+  type: text
+  config:
+    required: false
+  label: slug
+  description: What url this article should be? podcast/season-one/your_Slug_Here)
+- name: description
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: description
+- name: guestContact
+  type: list
+  config:
+    use_select: false
+    min: 
+    max: 
+  description: contact Info for the guest (anchor text example/ someTextHere=link_here_without_https)
+  label: contact Info
+- name: guestResources
+  type: list
+  config:
+    use_select: false
+    min: 
+    max: 
+  label: Resources from our guest
+  description: Resources from our guest (like book, courses or anything else) [BookNameHere=link_here_without_https]
+- name: bulletpoints
+  type: list
+  config:
+    use_select: false
+    min: 
+    max: 
+  description: Points that we discussed in the episode
+  label: bullet-points
+- name: platforms
+  type: list
+  config:
+    use_select: false
+    min: 
+    max: 
+  label: platforms
+  description: 3 links to the episode in 3 different platforms (The order (spoitfy,
+    Apple Podcasts, Google Podcasts)
+- name: episodeIframe
+  type: text
+  config:
+    required: false
+  label: Episode Link
+  description: Episode Iframe Link to embed the episode on the website
+- name: tagline
+  type: text
+  config:
+    required: false
+  label: tagline
+  description: Pick a three word tagline for the episode (social media in healthcare)
+pages:
+- content/podcast/season-one/brand-building-in-healthcare-with-dr.ryan-rieder.md
+- content/podcast/season-one/branding-and-business-positioning-in-healthcare.md
+- content/podcast/season-one/building-the-ultimate-patient-experience-with-dr.david-moffet.md
+- content/podcast/season-one/cutting-healthcare-business-expenses-with-dr.josh-luke.md
+- content/podcast/season-one/episode-04-building-brand-culture-of-trust-with-dr.steve-rasner.md
+- content/podcast/season-one/healthcare-inbound-marketing-with-alex-membrillo.md
+- content/podcast/season-one/healthcare-seo-with-codrin-arsene.md
+- content/podcast/season-one/personal-branding-for-doctors-with-dr.gary-wortz.md
+- content/podcast/season-one/skyrocket-your-case-acceptance-with-dr.christopher-phelps.md
+- content/podcast/season-one/your-guide-to-entrepreneurship-in-healthcare-with-dr.ernesto-gutierrez.md

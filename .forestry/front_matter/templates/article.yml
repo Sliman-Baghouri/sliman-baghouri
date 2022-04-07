@@ -1,0 +1,87 @@
+---
+label: 'Article '
+hide_body: false
+fields:
+- name: page
+  type: text
+  config:
+    required: true
+  label: Article Template
+  default: medical/single.html
+- type: text
+  name: title
+  label: title
+- type: text
+  name: category
+  label: Category
+- type: text
+  name: author
+  label: Author name
+- type: file
+  name: authorAvatarTop
+  label: Author avatar small for article top section (Small size 50x50/50x58)
+- type: file
+  name: authorAvatarBottom
+  label: Author bio avatar for article bottom section (Medium size 100x150 or larger)
+- type: textarea
+  name: authorBio
+  label: Author bio
+- type: text
+  name: twitterHandle
+  label: Author twitter handle (/yourTwitterHandle)
+- type: text
+  name: linkedinHandle
+  label: Author linkedin handle (/yourLinkedinHandle)
+- type: text
+  name: readingTime
+  label: Article reading time (put a number/in minutes/ example 6 or 7)
+- type: text
+  name: slug
+  label: slug (What url this article should be? medical/your_Slug_Here)
+- type: datetime
+  name: date
+  label: date
+- type: file
+  name: featImg
+  label: Featured image (1300x600) or larger
+- type: file
+  name: socialThumbnail
+  label: Social Media Thumbnail (facebok/twitter)
+- type: file
+  name: featImgThumb
+  label: Featured image thumbnail (660x300)
+- type: textarea
+  name: description
+  label: Description (for meta tag)
+- name: table_of_content
+  type: list
+  config:
+    use_select: false
+    min: 
+    max: 
+  label: Table of content
+pages:
+- content/medical/125-dental-facts-and-statistics-for-2021-visuals.md
+- content/medical/22-absolutely-jaw-dropping-dental-websites-for-2021.md
+- content/medical/25-awe-inducing-healthcare-advertising-campaigns-videos.md
+- content/medical/91-chiropractic-facts-and-statistics-for-2021-new.md
+- content/medical/a-smashingly-effective-strategy-to.md
+- content/medical/a-step-by-step-guide-to-swot-analysis-in-healthcare-2020.md
+- content/medical/audiology-marketing-powerful-ways-to-market-your-practice-2021.md
+- content/medical/clinic-names-how-to-craft-a-buzzworthy-practice-name-2021-examples.md
+- content/medical/dental-branding-the-anatomy-of-a-mouth-watering-dental-practice.md
+- content/medical/healthcare-branding-the-compact-guide-2020-examples.md
+- content/medical/healthcare-marketing-the-definitive-guide-2021.md
+- content/medical/hospice-marketing-new-strategies-mistakes-to-avoid-2020.md
+- content/medical/hospital-branding-how-to-build-a-timeless-hospital-brand.md
+- content/medical/how-to-grow-your-medical-practice-and-patient-volume-2021.md
+- content/medical/how-video-marketing-is-influencing-the-future-of-healthcare.md
+- content/medical/little-known-chiropractic-marketing-ideas-2020-examples.md
+- content/medical/little-known-orthodontic-marketing-ideas-2020-examples.md
+- content/medical/new-and-foolproof-marketing-strategies-for-doctors-2021.md
+- content/medical/new-and-powerful-medical-device-marketing-strategies-2021.md
+- content/medical/patient-journey-mapping-in-2021-guide-examples-template.md
+- content/medical/pharma-branding-create-a-market-leading-company-2020.md
+- content/medical/proven-nursing-home-marketing-ideas-traps-to-avoid-2021.md
+- content/medical/strategic-planning-in-healthcare-2021-guide-examples.md
+- content/medical/unique-healthcare-mission-statement-2020-guide-examples.md

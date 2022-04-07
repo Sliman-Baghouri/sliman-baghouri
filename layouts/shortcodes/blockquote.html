@@ -1,0 +1,11 @@
+{{- $cite := cond (.IsNamedParams) (.Get "cite") (.Get 0) -}}
+
+<blockquote>
+<p>
+  {{ safeHTML .Inner | markdownify }}
+</p>
+{{- with $cite -}}
+<p><cite>― {{.}}</cite></p>
+{{- end -}}
+</blockquote>
+  

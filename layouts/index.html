@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+  {{ partial "head.html" . }}
+  {{ partial "headers/homepage-header.html" . }}
+  <body>
+
+		{{ .Content }}
+
+    <!-- {{ partial "footer.html" . }} -->
+    {{ partial "js-links.html" }}
+
+  </body>
+</html>

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+  {{ partial "privte-head.html" . }}
+
+  <!-- use the same parent template but include different header to each static page -->
+  <body>
+  {{if .Data.Terms }}
+  	<h1>BULLSHIT</h1>
+  {{end}}
+
+	{{ if eq $.Page.Params.which "caresect" }}
+	  {{ partial "case-studies/caresect-header.html" . }}
+	  {{ partial "sidebar.html" . }}
+	  {{ partial "goup.html" . }}
+
+	{{ end }}
+
+	{{ if eq $.Page.Params.which "rodbell" }}
+	  {{ partial "case-studies/rodbell-header.html" . }}
+	  {{ partial "sidebar.html" . }}
+	  {{ partial "goup.html" . }}
+
+	{{ end }}
+
+	{{ if eq $.Page.Params.which "healthier" }}
+	  {{ partial "case-studies/healthier-header.html" . }}
+	  {{ partial "sidebar.html" . }}
+	  {{ partial "goup.html" . }}
+
+	{{ end }}
+
+	{{ if eq $.Page.Params.which "unnus" }}
+	  {{ partial "case-studies/unnus-header.html" . }}
+	  {{ partial "sidebar.html" . }}
+	  {{ partial "goup.html" . }}
+
+	{{ end }}	
+
+
+	{{ if eq $.Page.Params.which "massiveloop" }}
+	  {{ partial "case-studies/massiveloop-header.html" . }}
+	  {{ partial "sidebar.html" . }}
+	  {{ partial "goup.html" . }}
+
+	{{ end }}	
+
+
+	{{ if eq $.Page.Params.which "landing" }}
+	  {{ partial "case-studies/landing-header.html" . }}
+	  {{ partial "sidebar.html" . }}
+	  {{ partial "goup.html" . }}
+
+	{{ end }}	
+
+	{{ if eq $.Page.Params.which "softswitch" }}
+	  {{ partial "case-studies/softswitch-header.html" . }}
+	  {{ partial "sidebar.html" . }}
+	  {{ partial "goup.html" . }}
+
+	{{ end }}
+
+	{{ .Content }}
+
+	<script type="text/javascript" src="/assets/js/stickyFormPolyfill.js"></script>
+	<script type="text/javascript" src="/assets/js/drawsvgplugin.js"></script>
+	<script type="text/javascript" src="/assets/js/splitText.js"></script>
+	<script type="text/javascript" src="/assets/js/ScrollTrigger.min.js"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.0/gsap.min.js"></script>
+	<script type="text/javascript" src="/assets/js/mainx.js"></script>
+
+  </body>
+</html>

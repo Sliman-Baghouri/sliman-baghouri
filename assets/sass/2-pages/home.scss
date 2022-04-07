@@ -1,0 +1,210 @@
+.header-home{
+	height:100vh;
+	overflow: hidden;
+	.black-header{
+		position:absolute;
+		top:0;
+		right:0;
+		width:40%;
+		background:$bc;
+		height:100vh;
+		.header-testimonial{
+		    position: absolute;
+		    top: 42%;
+		    left: 17%;
+		    transform: translateY(-50%);			
+		    width: 364px;			
+		    .left-quote{
+					left: -34%;
+			    top: -31%;
+		    }
+		    .right-quote{
+			    right: -30%;
+			    bottom: -35%;		    	
+		    }
+		}
+	
+		blockquote{
+		position:relative;
+	  font-family: 'Droid Serif';
+	  color:rgba(#FFF, .80);
+	  font-style: italic;  
+
+	 	font-size:1.45em; 
+	    svg{
+	    	width:80px;
+	    	position: absolute;
+	    }
+		}
+
+		.avatar-testimonial{
+	    display: flex;
+	    align-items: flex-end;
+
+			.avatar-image{
+		    background: url('../assets/images/avatar/Ibrahim-Coban.jpg');
+		    width: 100px;
+		    height: 100px;
+		    background-size: contain;
+		    border-radius: 50%;
+			}
+			span{
+		    color: white;
+		    transform: translate(21px,-25px);
+		    font-size: 1.2em;
+
+			}
+		}
+	}
+
+	.header-content{
+			width:590px;
+			margin-top:4%;
+	}
+}
+
+.course-intro-holder{
+	display: flex;
+}
+
+.course-intro-holder .text-content{
+	flex:.5;
+	h3:last-of-type{
+		font-weight: 300;
+	}
+}
+
+.course-intro-holder .form-content{
+	flex:.5;
+	text-align: right;
+}
+
+
+.home-header-p{
+	width:100vw;
+	height:100vh;
+	display: flex;
+	overflow:hidden;
+}
+
+.black{
+	position: relative;
+	flex-basis: 60%;
+	background:#000;
+	nav{
+		margin-top:4%;
+		padding-left:30px;
+		a{
+			color:#FFF;
+			text-decoration: none;
+			margin-right: 13%
+		}
+		span {
+	      display: inline-block;
+	      // font-weight: 300;
+	      color: #fff;
+	      // text-transform: uppercase;
+	      pointer-events: none;
+	      transition: transform 0.1s linear;
+	}
+
+	}
+	.hover-this {
+	      transition: all 0.3s ease;
+	}
+
+
+	.cursor {
+	      pointer-events: none;
+	      position: fixed;
+	      padding: 0.3rem;
+	      background-color: #fff;
+	      border-radius: 50%;
+	      mix-blend-mode: difference;
+	      transition: transform 0.3s ease;
+	}
+
+	.hover-this:hover ~ .cursor {
+	      transform: translate(-50%, -50%) scale(8);
+	}
+
+	@media(min-width: 900px) {
+	      nav {
+	            display: flex;
+	            // justify-content: space-around;
+	      }
+	}
+
+	@media(max-width: 900px) {
+	      nav {
+	            top: 30%;
+	      }
+
+	      .hover-this {
+	            width: 100%;
+	            padding: 20px 0;
+	            display: inline-block;
+	      }
+	}
+
+	.text-content{
+		color:#FFF;
+	}
+	.text-content{
+		padding:25px;
+		h2{
+			font-weight: 400;
+			font-size:2.5em;
+			width:400px;
+
+		}
+		p{
+			width:500px;
+			font-size:1.3em;
+			color:rgba(225,225,225,.9);
+			font-weight:300;
+		}
+		button{
+			cursor:pointer;
+			margin-top: 5%;
+			background:#FFF;
+			outline:none;
+			border:none;
+			width:215px;
+			height: 65px;
+			line-height: 65px;
+			span{
+				font-size:2em;
+				color:#000 !important;
+			}
+			svg{
+				width: 55px;
+			    height: 55px;
+			    padding: 0;
+			    margin: -10px;
+			    margin-left: -4px;
+			}
+		}
+	}
+}
+
+
+.white{
+	position: relative;
+	flex-basis: 40%;
+
+	.project-thumbnails{
+		display: flex;
+		img {
+		    border-style: none;
+		    width: auto;
+		    height: 170px;
+		    cursor:pointer;
+		    transform: rotate(-18deg) translate(-52px, -15px);
+		    margin: 19px;
+		    box-shadow: 0 10px 50px rgba(25, 37, 52, .14), 0 2px 5px rgba(25, 37, 52, 0);
+		}
+	}
+}
+
+

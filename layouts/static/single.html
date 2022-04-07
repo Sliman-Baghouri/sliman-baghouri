@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+
+
+  {{ partial "head.html" . }}
+
+
+  <!-- use the same parent template but include different header to each static page -->
+  <body>
+
+	{{ if eq $.Page.Params.which "manifesto" }}
+	  {{ partial "headers/manifesto-header.html" . }}
+	{{ end }}
+
+	{{ if eq $.Page.Params.which "contact" }}
+	  {{ partial "headers/contact-header.html" . }}
+	{{ end }}
+
+
+	{{ if eq $.Page.Params.which "case-studies" }}
+	  {{ partial "headers/case-studies-header.html" . }}
+	{{ end }}
+
+
+		{{ .Content }}
+
+    {{ partial "footer.html" . }}
+
+  </body>
+</html>

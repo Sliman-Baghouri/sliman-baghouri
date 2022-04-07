@@ -1,0 +1,54 @@
+---
+label: Email Content
+hide_body: false
+fields:
+- type: text
+  name: author
+  label: author
+- type: file
+  name: authorAvatarBottom
+  label: authorAvatarBottom
+- type: file
+  name: authorAvatarTop
+  label: authorAvatarTop
+- type: textarea
+  name: authorBio
+  label: authorBio
+- type: datetime
+  name: date
+  label: date
+- type: file
+  name: featImg
+  label: featImg
+- type: file
+  name: featImgThumb
+  label: featImgThumb
+- type: text
+  name: linkedinHandle
+  label: linkedinHandle
+- type: text
+  name: page
+  label: page
+- type: text
+  name: readingTime
+  label: readingTime
+- type: text
+  name: slug
+  label: slug
+- type: file
+  name: socialThumbnail
+  label: socialThumbnail
+- type: list
+  name: table_of_content
+  label: table_of_content
+- type: text
+  name: title
+  label: title
+- type: text
+  name: twitterHandle
+  label: twitterHandle
+pages:
+- content/email/lesson-1-branding-workshop-strategy.md
+- content/email/lesson-2-brand-positioning-workshop-differentiating-your-medical-brand.md
+- content/email/lesson-5-brand-art-direction-how-to-craft-a-mesmerizing-brand-visuals.md
+- content/email/lesson-6-how-to-measure-your-branding-roi.md

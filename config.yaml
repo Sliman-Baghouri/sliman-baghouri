@@ -1,0 +1,30 @@
+# the 2 lines below are bad practice and might introduce issues, might want to use disableKind instead. 
+disableKinds:
+  - taxonomy
+  - taxonomyTerm
+
+# permalinks:
+#   posts: "/:title/"
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+      
+# enableGitInfo: true
+disablePathToLower: true
+# baseURL: https://slimanbaghouri.com
+languageCode: en-us
+title: 'Slima M. Baghouri '
+params:
+ socialThumbnail: https://slimanbaghouri.com/assets/images/default-card.png
+ twitterHandle: "SlimanBaghouri"
+ author: Slimane M. Baghouri
+
+ minify:
+  disableSVG: true
+
+sitemap:
+  changefreq: monthly
+  filename: sitemap.xml
+  priority: 0.5

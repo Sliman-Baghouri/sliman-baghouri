@@ -1,0 +1,22 @@
+
+{{if in .Text "-"}} 
+	<a href="{{ .Destination | safeURL }}"{{ with .Title}}  title="{{ . }}"{{ end }}{{ if strings.HasPrefix .Destination "http" }} target="_blank"{{ end }} rel="noreferrer noopener">
+
+	{{replaceRE "-" "" .Text }}
+	</a>
+
+{{else if in .Text "/"}}
+
+<a href="{{ .Destination | safeURL }}"{{ with .Title}} title="{{ . }}"{{ end }}{{ if strings.HasPrefix .Destination "http" }} target="_blank"{{ end }} rel="nofollow noopener">
+	{{replaceRE "/" "" .Text }}
+</a>
+
+{{else}}
+
+<a href="{{ .Destination | safeURL }}"{{ with .Title}} title="{{ . }}"{{ end }}{{ if strings.HasPrefix .Destination "http" }} target="_blank"{{ end }}>
+	{{.Text }}
+</a>
+
+{{end}}
+
+

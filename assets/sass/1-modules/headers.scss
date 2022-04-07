@@ -1,0 +1,17 @@
+.split-header{
+	height:100vh;
+	.right-header{
+		width:45%;
+		height:100%;
+		position:absolute;
+		background:#000;
+		z-index: 9;
+		top:0;
+		right:0;
+		overflow:hidden;
+	}
+	.text-content{
+		width:590px;
+		margin-top:7%;
+	}
+}
