@@ -19,6 +19,11 @@ weight: 1
 				</div>
 			</div>
 		</div>
+		<div class="text-row reveal-text">
+			<p>I have a Bachelor’s Degree in Automation and Control, and have been doing what I do since 2015, when I started my career, as well as developed my first ever website. </p>
+	</div>
+</div>
+</div>
 </section>
 
 <section class="healthier rodbell logo-showcase about-showcase">
@@ -35,7 +40,7 @@ weight: 1
 		<div class="text-holder">
 			<h2 class="light reveal-text">Need to know my technical skills?</h2>
 			<p>You can download or view my résumé below.</p>
-					<button style="background:#000" class="btn-s">View Résumé <svg viewBox="0 0 59 58" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="1.5"><g fill="none" stroke="#fff" stroke-width="9.38"><path d="M2.688 28.863h50.054M31.231 2.688l24.576 26.175-24.576 26.175"></path></g></svg></button>
+					<a target="_blank" href="https://docs.google.com/document/d/1f-eb9tz1mHUUaYgi1sr_UEzL7loBJyNvh2TK4DGmEe0/edit?usp=sharing"><button style="background:#000" class="btn-s">View Résumé <svg viewBox="0 0 59 58" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="1.5"><g fill="none" stroke="#fff" stroke-width="9.38"><path d="M2.688 28.863h50.054M31.231 2.688l24.576 26.175-24.576 26.175"></path></g></svg></button></a>
 		</div>		
 	</div>	
 </section>
