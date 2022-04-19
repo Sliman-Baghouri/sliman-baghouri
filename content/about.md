@@ -9,17 +9,17 @@ weight: 1
 ---
 
 <section class="company-intro">
-		<div class="container">
-			<div class="company-intro-holder">
-				<div class="headline-row">
-					<h2 class="light reveal-text">A little bit of background</h2>
-				</div>
-				<div class="text-row reveal-text">
-					<p>I have a Bachelor’s Degree in Automation and Control, and have been doing what I do since 2015, when I started my career, as well as developed my first ever website. </p>
-			
-				</div>
-			</div>
+<div class="container">
+	<div class="company-intro-holder">
+		<div class="headline-row">
+			<h2 class="light reveal-text">A little bit of background</h2>
 		</div>
+		<div class="text-row reveal-text">
+			<p>I have a Bachelor’s Degree in Automation and Control, and have been doing what I do since 2015, when I started my career, as well as developed my first ever website. </p>
+
+		</div>
+	</div>
+</div>
 </section>
 
 <section class="healthier rodbell logo-showcase about-showcase">
