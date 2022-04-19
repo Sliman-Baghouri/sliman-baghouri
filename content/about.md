@@ -16,15 +16,7 @@ weight: 1
 				</div>
 				<div class="text-row reveal-text">
 					<p>I have a Bachelor’s Degree in Automation and Control, and have been doing what I do since 2015, when I started my career, as well as developed my first ever website. </p>
-					<h3 class="light-headline underline">Expertise</h3>
-					<ul>
-						<li>Jamstack architecture (Static Site Generators, Headless CMSs, and CDNs)</li>
-						<li>Core front-end technology (HTML/CSS/SASS/SVG/JavaScript/Vue)</li>
-						<li>Web Performance Optimazation and Accessibility Standards</li>
-						<li>Experience dealing with NodeJS, Rest APIs, Mongodb, GraphQL, and other backend stack </li>
-						<li>Git workflows and modern build tools</li>
-						<li>High fidelity prototyping (Figma, Sketch, Adobe XD)</li>
-					</ul>
+			
 				</div>
 			</div>
 		</div>
