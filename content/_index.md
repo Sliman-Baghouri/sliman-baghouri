@@ -1,6 +1,5 @@
 ---
 page: static/single.html
 title: Sliman M. Baghouri
-description: I help brands build modern, resilient, and fluid web user interfaces and design systems, with a strong focus on responsive design, performance, and usability.
+description: Sliman M. Baghouri spends his time learning, building, and paying attention to software, businesses, design, avionics, languages, and whatever else.
 ---
-
